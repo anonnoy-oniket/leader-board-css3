@@ -237,6 +237,10 @@ mobile devices
 
 @media only screen and (max-width: 688px) {
 
+    * {
+        box-sizing: border-box;
+    }
+
     header {
         width: 100%;
     }
@@ -247,6 +251,7 @@ mobile devices
 
     body {
         width: 100%;
+        margin: 0;
     }
 
     .section-1, .section-2 {
